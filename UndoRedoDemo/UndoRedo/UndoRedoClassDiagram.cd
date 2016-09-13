@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Command" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAEAABQAAAAAIAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandManager" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <NestedTypes>
+      <Class Name="CommandManager::UndoRedoStateInspector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CommandManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgBgBABAAAAAAAAQABAgAAAAgAQAAAAAtABBA=</HashCode>
+      <FileName>CommandManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegisterCommandReceiverClass&lt;DerivedCommandReceiver&gt;" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseCommandReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacroCommand" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAUCAAAAAQAAAAAAAAQAAAQAABAAAAA=</HashCode>
+      <FileName>MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAEAAAAQgAAgAAAABARAACAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgAAAAAAIQIAAAUAAAAAAAABAAAAQBAAAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory&lt;AbstractProduct, IndentifierType, ProductCreator&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAKAAACQAAAABBAgAAAAAAAAAAEAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegisterClassToFactory&lt;AbstractProduct, Product&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegisterCommandClass&lt;DerivedCommand&gt;" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseCommand" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BaseCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseCommandManager" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAABgBABAAAAAAAAAABAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BaseCommandManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseCommandReceiver" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BaseCommandReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

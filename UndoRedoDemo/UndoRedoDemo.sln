@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UndoRedo", "UndoRedo\UndoRedo.vcproj", "{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UndoRedo.UnitTest", "UndoRedo.UnitTest\UndoRedo.UnitTest.vcproj", "{CB9DA7F9-37AC-40D3-9740-E492B93D72A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB} = {E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}.Debug|Win32.Build.0 = Debug|Win32
+		{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}.Release|Win32.ActiveCfg = Release|Win32
+		{E6D1C999-88C2-4BA5-B32E-CA6E677EDBCB}.Release|Win32.Build.0 = Release|Win32
+		{CB9DA7F9-37AC-40D3-9740-E492B93D72A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB9DA7F9-37AC-40D3-9740-E492B93D72A1}.Debug|Win32.Build.0 = Debug|Win32
+		{CB9DA7F9-37AC-40D3-9740-E492B93D72A1}.Release|Win32.ActiveCfg = Release|Win32
+		{CB9DA7F9-37AC-40D3-9740-E492B93D72A1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
